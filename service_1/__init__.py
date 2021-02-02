@@ -3,8 +3,8 @@ import azure.functions as func
 import requests
 from azure.cosmos import exceptions, CosmosClient, PartitionKey
 
-endpoint = "https://serverless-cosmo-db.documents.azure.com:443/"
-key = "RfJlLQq7AZeiINTc3c25kI8CHACzl12m2qtQ2JsvmGzsciQ9fRwkY7O5SaT1hLtd1Qa2JOi8HLTk5CNQsp6AeQ=="
+endpoint = "FROM PORTAL"
+key = "FROM PORTAL"
 
 client = CosmosClient(endpoint, key)
 
